@@ -1,0 +1,73 @@
+/* Footer Widgets */ 
+#footer-widgets {
+	background-color: #333;
+	border-bottom: 1px solid #fff;
+	clear: both;
+	color: #fff;
+	font-size: 12px;
+	margin: 0 auto 0;
+	overflow: hidden;
+	padding: 10px 0 0 0;
+	width: 960px;
+}
+#footer-widgets .wrap {
+	margin: 0 auto 0;
+	width: 940px;
+}
+#footer-widgets .widget {
+	background: none;
+	border: none;
+	padding: 0;
+}
+#footer-widgets .textwidget {
+	padding: 0;
+}
+#footer-widgets .widget_tag_cloud div div {
+	padding: 0;
+}
+#footer-widgets h4 {
+	background: none;
+	border: none;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 5px;
+	padding: 0;
+	text-transform: uppercase;
+}
+#footer-widgets p {
+	color: #fff;
+	padding: 0 0 10px;
+}
+#footer-widgets a, #footer-widgets a:visited {
+	color: #fff;
+	text-decoration: underline;
+}
+#footer-widgets a:hover {
+	text-decoration: none;
+}
+#footer-widgets ul {
+	color: #fff;
+	list-style-type: none;
+	margin: 0 0 10px;
+}
+#footer-widgets ul li {
+	list-style-type: square;
+	margin: 0 0 0 15px;
+}
+#footer-widgets #wp-calendar thead, #footer-widgets #wp-calendar td {
+	background: none;
+}
+.footer-widgets-1 {
+	float: left;
+	padding: 0 20px 0 0;
+	width: 300px;
+}
+.footer-widgets-2 {
+	float: left;
+	width: 300px;
+}
+.footer-widgets-3 {
+	float: right;
+	width: 300px;
+}
