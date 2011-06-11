@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Genesis Footer Widgets
-Plugin URI: http://www.ramoonus.nl
+Plugin URI: http://www.ramoonus.nl/wordpress/genesis-footer-widgets/
 Description: This plugin adds 3 footer widgets to Genesis 1.6 and higher. 
 Version: 1.0.0
 Author: Ramoonus
-Author URI: http://www.ramoonus.nl/wordpress/genesis-footer-widgets/
+Author URI: http://www.ramoonus.nl/
 */
 function genesisfooterwidgetsplugin() {
 	/** Add support for 3-column footer widgets **/
