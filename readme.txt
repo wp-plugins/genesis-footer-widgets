@@ -4,7 +4,7 @@ Donate link: http://www.ramoonus.nl
 Tags: genesis, genesiswp, footer, widgets, widget
 Requires at least: 3.0.0
 Tested up to: 3.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 
 This plugin adds 3 footer widgets to Genesis 1.6 and higher. 
 == Description ==
@@ -25,5 +25,8 @@ Its recommended to flush the cache after upgrading.
 Not relevant.
 
 == Changelog ==
+= 1.0.1 =
+* Fixes the reported bugs.
+
 = 1.0 =
 * First version
