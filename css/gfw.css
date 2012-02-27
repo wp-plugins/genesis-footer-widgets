@@ -1,3 +1,4 @@
+@charset "UTF-8"; 
 /* Footer Widgets */ 
 #footer-widgets {
 	background-color: #333;
@@ -57,17 +58,4 @@
 }
 #footer-widgets #wp-calendar thead, #footer-widgets #wp-calendar td {
 	background: none;
-}
-.footer-widgets-1 {
-	float: left;
-	padding: 0 20px 0 0;
-	width: 300px;
-}
-.footer-widgets-2 {
-	float: left;
-	width: 300px;
-}
-.footer-widgets-3 {
-	float: right;
-	width: 300px;
 }
