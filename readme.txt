@@ -4,7 +4,7 @@ Donate link: http://www.ramoonus.nl/donate/
 Tags: genesis, genesiswp, footer, widgets, widget
 Requires at least: 3.0.0
 Tested up to: 3.3.1
-Stable tag: 1.1
+Stable tag: 1.1.1
 
 Adds 3 or 4 footer widget areas to the Genesis Theme Framework version 1.6 or higher. 
 == Description ==
@@ -34,7 +34,11 @@ Major new release. Adds the option to switch between 3 and 4 footer widgets and 
 1. Widget Menu containing 3 widgets
 
 == Changelog ==
+= 1.1.1 =
+* Fixes crash condition
+
 = 1.1 =
+
 Major new release, includes the following new features and changes:
 
 * Options screen, allows the user to switch between 3 and 4 footer widgets

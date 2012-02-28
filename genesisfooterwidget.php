@@ -3,13 +3,13 @@
 Plugin Name: Genesis Footer Widgets
 Plugin URI: http://www.ramoonus.nl/wordpress/genesis-footer-widgets/
 Description: Adds 3 or 4 footer widget areas to the Genesis Theme Framework version 1.6 or higher. 
-Version: 1.1
+Version: 1.1.1
 Author: Ramoonus
 Author URI: http://www.ramoonus.nl/
 */
 
 // Declare variables
-$gfw_version = '1.1';
+$gfw_version = '1.1.1';
 
 // Initialize function
 function gfw_init() {
@@ -70,20 +70,6 @@ function gfw_flushcache() {
 }
 
 function gfw_core() {
-	// Retrieve Options
-	$gfw_option = get_option('gfw');
-	
-	// if empty, activation didn`t work and disable
-	if (!$gfw_option) { 
-		wp_die('Genesis Footer Widgets Error: Unable to retrieve options');
-		deactivate_plugins( plugin_basename( __FILE__ ) );  // Deactivate ourself
-	}
-	
-	// Detect if option is anything else than 3 or 4
-	if( !$gfw_option = 3 || !$gfw_option = 4 ) {
-		wp_die('Genesis Footer Widgets Error: Options are corrupt');
-		deactivate_plugins( plugin_basename( __FILE__ ) );  // Deactivate ourself
-	}
 	
 	if ($gfw_option = 3) { 
 		/** Add support for 3-column footer widgets **/
